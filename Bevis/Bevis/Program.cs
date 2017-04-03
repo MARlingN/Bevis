@@ -18,6 +18,11 @@ namespace Bevis
             Console.WriteLine(tjek.erdet(d, c));
             Console.WriteLine(tjek.erdet(a, b));
             Console.WriteLine(tjek.erdet(1, 3));
+            tjek12 tjek2 = new tjek12();
+            Console.WriteLine(tjek2.erdet(d, c));
+            Console.WriteLine(tjek2.erdet(a, b));
+            Console.WriteLine(tjek2.erdet(1, 3));
+
         }
     }
 }

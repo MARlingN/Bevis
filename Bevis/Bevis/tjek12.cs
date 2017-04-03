@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace Bevis
 {
-    class tjek4
+    class tjek12
     {
-        public string erdet(int a, int b)
+        public bool erdet(int a, int b)
         {
-            string ord = "no";
-            int c = a + b;
-            if (c == 4)
+            bool svar = false;
+            if (a + b == 12)
             {
-                ord = "yes";
+                svar = true;
             }
-            return ord;
+            return svar;
         }
     }
 }
