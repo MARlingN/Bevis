@@ -12,7 +12,7 @@ namespace Bevis
         {
             string ord = "no";
             int c = a + b;
-            if (c == 4)
+            if (c == 12)
             {
                 ord = "yes";
             }
